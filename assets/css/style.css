@@ -1,0 +1,35 @@
+body{
+    background-color: #fcb900 !important;
+}
+
+#btnRandom{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    height: 10%;
+}
+
+.border-radius-20{
+    border-radius: 20px;
+}
+
+#title{
+    font-size: 45px;
+    color: red;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-text {
+    animation: fadeIn 5s ease-in-out;
+}
